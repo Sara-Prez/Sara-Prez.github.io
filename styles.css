@@ -33,6 +33,7 @@ nav ul li {
 nav ul li a {
     color: turquoise;                  /* Establece el color del texto de los enlaces en el menú de navegación a azul claro. */
     text-decoration: none;             /* Elimina el subrayado del texto de los enlaces en el menú de navegación. */
+    font-size: 2rem;
 }
 
 main {
@@ -47,6 +48,7 @@ section {
 section h2 {
     text-transform: uppercase; /* Convierte el texto del título de cada sección a mayúsculas */
     color: turquoise;
+    font-size: 3rem;
 }
 
 
