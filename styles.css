@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: lightblue;           /* Establece el color de fondo del encabezado a blanco. */
-    color: blue;                  /* Establece el color del texto dentro del encabezado a azul claro. */
+    background-color: #333;           /* Establece el color de fondo del encabezado a blanco. */
+    color: white;                  /* Establece el color del texto dentro del encabezado a azul claro. */
     padding: 1rem 0;                   /* Agrega relleno de 2 rem en la parte superior e inferior del encabezado. */
     text-align: center;                /* Alinea el texto del encabezado al centro. */
     text-transform: uppercase;         /* Convierte todo el texto en el encabezado a mayúsculas. */
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;                  /* Establece el color del texto de los enlaces en el menú de navegación a azul claro. */
+    color: blue;                  /* Establece el color del texto de los enlaces en el menú de navegación a azul claro. */
     text-decoration: none;             /* Elimina el subrayado del texto de los enlaces en el menú de navegación. */
 }
 
