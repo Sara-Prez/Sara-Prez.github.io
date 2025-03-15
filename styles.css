@@ -14,7 +14,7 @@ header {
 }
 
 header h1 {
-    color: blue;                  /* Establece el color del texto del título en el encabezado a azul claro. */
+    color: white;                  /* Establece el color del texto del título en el encabezado a azul claro. */
     font-size: 3rem;                   /* Aumenta el tamaño de la fuente del título a 3 rem. */
     margin: 0;                         /* Elimina el margen predeterminado del título. */
 }
@@ -31,7 +31,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: blue;                  /* Establece el color del texto de los enlaces en el menú de navegación a azul claro. */
+    color: lightblue;                  /* Establece el color del texto de los enlaces en el menú de navegación a azul claro. */
     text-decoration: none;             /* Elimina el subrayado del texto de los enlaces en el menú de navegación. */
 }
 
