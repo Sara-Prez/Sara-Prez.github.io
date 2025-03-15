@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara Pérez</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function includeHTML() {
+            var z, i, elmnt, file, xhttp;
+            z = document.getElementsByTagName("*");
+            for (i = 0; i < z.length; i++) {
+                elmnt = z[i];
+                file = elmnt.getAttribute("include-html");
+                if (file) {
+                    xhttp = new XMLHttpRequest();
+                    xhttp.onreadystatechange = function() {
+                        if (this.readyState == 4) {
+                            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+                            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+                            elmnt.removeAttribute("include-html");
+                            includeHTML();
+                        }
+                    }
+                    xhttp.open("GET", file, true);
+                    xhttp.send();
+                    return;
+                }
+            }
+        }
+
+        function loadReadme() {
+            var converter = new showdown.Converter();
+            var readmeContainer = document.getElementById("readme-content");
+            fetch("README.md")
+                .then(response => response.text())
+                .then(text => {
+                    var html = converter.makeHtml(text);
+                    readmeContainer.innerHTML = html;
+                });
+        }
+    </script>
+</head>
+<body onload="includeHTML(); loadReadme();">
+    <header>
+        <h1>Portafolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div include-html="about.html"></div>
+        <div id="readme-content"></div>
+        <div include-html="skills.html"></div>
+        <div include-html="contact.html"></div>
+    </main>
+    <footer>
+        <p>© 2025 Sara-Prez. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js"></script>
+</body>
+</html>
