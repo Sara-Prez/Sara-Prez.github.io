@@ -6,15 +6,15 @@ body {
 }
 
 header {
-    background-color: blue;           /* Establece el color de fondo del encabezado a blanco. */
-    color: white;                  /* Establece el color del texto dentro del encabezado a azul claro. */
+    background-color: lightblue;           /* Establece el color de fondo del encabezado a blanco. */
+    color: blue;                  /* Establece el color del texto dentro del encabezado a azul claro. */
     padding: 1rem 0;                   /* Agrega relleno de 2 rem en la parte superior e inferior del encabezado. */
     text-align: center;                /* Alinea el texto del encabezado al centro. */
     text-transform: uppercase;         /* Convierte todo el texto en el encabezado a mayúsculas. */
 }
 
 header h1 {
-    color: black;                  /* Establece el color del texto del título en el encabezado a azul claro. */
+    color: blue;                  /* Establece el color del texto del título en el encabezado a azul claro. */
     font-size: 3rem;                   /* Aumenta el tamaño de la fuente del título a 3 rem. */
     margin: 0;                         /* Elimina el margen predeterminado del título. */
 }
@@ -46,6 +46,7 @@ section {
 
 section h2 {
     text-transform: uppercase; /* Convierte el texto del título de cada sección a mayúsculas */
+    color: blue;
 }
 
 
