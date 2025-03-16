@@ -5,8 +5,11 @@
     margin-top: 1rem;
   }
   summary {
-    font-size: 1.25rem;
+    font-size: 2rem; /* Tamaño de fuente de los títulos */
     font-weight: bold;
+  }
+  details p, details h2 {
+    font-size: 1rem; /* Tamaño de fuente del contenido */
   }
 </style>
 
