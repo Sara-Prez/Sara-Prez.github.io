@@ -3,6 +3,7 @@ body {
     margin: 0;                         /* Elimina el margen predeterminado del cuerpo. */
     padding: 0;                        /* Elimina el relleno (padding) predeterminado del cuerpo. */
     background-color: white;           /* Establece el color de fondo del cuerpo a blanco. */
+    font-size: 2rem
 }
 
 header {
@@ -15,7 +16,7 @@ header {
 
 header h1 {
     color: white;                  /* Establece el color del texto del título en el encabezado a azul claro. */
-    font-size: 3rem;                   /* Aumenta el tamaño de la fuente del título a 3 rem. */
+    font-size: 4rem;                   /* Aumenta el tamaño de la fuente del título a 3 rem. */
     margin: 0;                         /* Elimina el margen predeterminado del título. */
 }
 
