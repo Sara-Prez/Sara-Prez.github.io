@@ -1,10 +1,6 @@
-# Proyectos
+# <span style="color: turquoise; font-size: 2rem;">Proyectos</span>
 
 <style>
-  h1:first-of-type {
-    color: turquoise;
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente según tus preferencias */
-  }
   details {
     margin-top: 1rem;
   }
