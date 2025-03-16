@@ -1,4 +1,4 @@
-# <span style="color: turquoise; font-size: 2rem;">Proyectos</span>
+# <span style="color: turquoise; font-size: 2rem; text-transform: uppercase;">Proyectos</span>
 
 <style>
   details {
