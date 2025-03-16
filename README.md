@@ -9,7 +9,7 @@
     font-weight: bold;
   }
   details p, details h2 {
-    font-size: 1rem; /* Tamaño de fuente del contenido */
+    font-size: 1.5rem; /* Tamaño de fuente del contenido */
   }
 </style>
 
