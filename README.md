@@ -17,12 +17,14 @@
   <summary>Hidrología superficial</summary>
   
   ## Proyecto 1: Modelado de Cuencas Hidrográficas
+
   **Herramientas:** ArcGIS, HEC-HMS, AutoCAD
   
   **Resultado:**
   ![Proyecto 1](path/to/your/project1.jpg)
 
   ## Proyecto 2: Análisis de Precipitaciones
+  
   **Herramientas:** QGIS, Python, Excel
   
   **Resultado:**
@@ -51,9 +53,9 @@
 </details>
 
 <details>
-  <summary>SIG</summary>
+  <summary>SIG y Percepción Remota</summary>
   
-  ## Proyecto 3: Sistema de Gestión de Inventarios
+  ## Proyecto 1: Sistema de Gestión de Inventarios
   El proyecto "Sistema de Gestión de Inventarios" es una aplicación desarrollada para una pequeña empresa como parte de un proyecto profesional. El objetivo del proyecto es ayudar a la empresa a gestionar su inventario de manera más eficiente.
 
   Desarrollé este proyecto utilizando tecnologías como PHP, MySQL y Bootstrap. La aplicación permite a los usuarios agregar, editar y eliminar productos del inventario, generar informes y recibir alertas cuando el stock está bajo. Uno de los desafíos fue asegurar la integridad de los datos y proporcionar una interfaz de usuario intuitiva, lo cual logré implementando validaciones y siguiendo principios de diseño centrado en el usuario.
