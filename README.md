@@ -7,9 +7,14 @@
   summary {
     font-size: 2rem; /* Tamaño de fuente de los títulos */
     font-weight: bold;
+    list-style: none; /* Ocultar el triángulo invertido */
+  }
+  summary::-webkit-details-marker {
+    display: none; /* Ocultar el triángulo invertido en navegadores WebKit */
   }
   details p, details h2 {
     font-size: 1.5rem; /* Tamaño de fuente del contenido */
+    margin-left: 20px; /* Margen izquierdo para los proyectos */
   }
 </style>
 
