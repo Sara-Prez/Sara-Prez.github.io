@@ -36,7 +36,7 @@
   </details>
 
   <details>
-    <summary class="project">Proyecto 2: Análisis de Precipitaciones</summary>
+    <summary class="project">2. Análisis de Precipitaciones</summary>
 
 **Herramientas:** QGIS, Python, Excel
 
