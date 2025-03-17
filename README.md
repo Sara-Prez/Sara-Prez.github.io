@@ -26,7 +26,7 @@
   <summary class="section">Hidrología superficial</summary>
   
   <details>
-    <summary class="project">Proyecto 1: Modelado de Cuencas Hidrográficas</summary>
+    <summary class="project">1: Modelado de Cuencas Hidrográficas</summary>
 
 **Herramientas:** ArcGIS, HEC-HMS, AutoCAD
 
