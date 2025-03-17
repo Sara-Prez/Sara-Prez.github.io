@@ -1,4 +1,4 @@
-# <span style="color: turquoise; font-size: 1.5rem; text-transform: uppercase;">Proyectos</span>
+# <span style="color: turquoise; font-size: 2rem; text-transform: uppercase;">Proyectos</span>
 
 <style>
   details {
@@ -13,8 +13,8 @@
     display: none; /* Ocultar el triángulo invertido en navegadores WebKit */
   }
   details p, details h2 {
-    font-size: 1rem; /* Tamaño de fuente del contenido */
-    margin-left: 20px; /* Margen izquierdo para los proyectos */
+    font-size: 1.5rem; /* Tamaño de fuente del contenido */
+    margin-left: 40px; /* Margen izquierdo para los proyectos */
   }
 </style>
 
@@ -23,33 +23,41 @@
   
   <details>
     <summary>Proyecto 1: Modelado de Cuencas Hidrográficas</summary>
+    
     **Herramientas:** ArcGIS, HEC-HMS, AutoCAD
 
     **Resultado:**
+    
     ![Proyecto 1](path/to/your/project1.jpg)
   </details>
 
   <details>
     <summary>Proyecto 2: Análisis de Precipitaciones</summary>
+    
     **Herramientas:** QGIS, Python, Excel
 
     **Resultado:**
+    
     ![Proyecto 2](path/to/your/project2.jpg)
   </details>
 
   <details>
     <summary>Proyecto 3: Gestión de Recursos Hídricos</summary>
+    
     **Herramientas:** EPANET, R, Matlab
 
     **Resultado:**
+    
     ![Proyecto 3](path/to/your/project3.jpg)
   </details>
 
   <details>
     <summary>Proyecto 4: Evaluación de Calidad del Agua</summary>
+    
     **Herramientas:** Excel, R, Python
 
     **Resultado:**
+    
     ![Proyecto 4](path/to/your/project4.jpg)
   </details>
 </details>
@@ -66,6 +74,7 @@
     **Herramientas:** HTML, CSS, JavaScript, React
 
     **Resultado:**
+    
     ![Proyecto 1](path/to/your/project1.jpg)
 
     [Ver PDF del Proyecto 1](pdf/project1.pdf)
@@ -73,25 +82,31 @@
 
   <details>
     <summary>Proyecto 2: Análisis de Aguas Subterráneas</summary>
+    
     **Herramientas:** QGIS, AutoCAD, HEC-RAS
 
     **Resultado:**
+    
     ![Proyecto 2](path/to/your/project2.jpg)
   </details>
 
   <details>
     <summary>Proyecto 3: Modelado de Acuíferos</summary>
+    
     **Herramientas:** MODFLOW, ArcGIS, Python
 
     **Resultado:**
+    
     ![Proyecto 3](path/to/your/project3.jpg)
   </details>
 
   <details>
     <summary>Proyecto 4: Gestión de Pozos</summary>
+    
     **Herramientas:** EPANET, Excel, R
 
     **Resultado:**
+    
     ![Proyecto 4](path/to/your/project4.jpg)
   </details>
 </details>
@@ -108,6 +123,7 @@
     **Herramientas:** PHP, MySQL, Bootstrap
 
     **Resultado:**
+    
     ![Proyecto 1](path/to/your/project1.jpg)
 
     [Ver PDF del Proyecto 1](pdf/project1.pdf)
@@ -115,25 +131,31 @@
 
   <details>
     <summary>Proyecto 2: Análisis Espacial de Datos</summary>
+    
     **Herramientas:** QGIS, Python, R
 
     **Resultado:**
+    
     ![Proyecto 2](path/to/your/project2.jpg)
   </details>
 
   <details>
     <summary>Proyecto 3: Cartografía Temática</summary>
+    
     **Herramientas:** ArcGIS, Illustrator, Excel
 
     **Resultado:**
+    
     ![Proyecto 3](path/to/your/project3.jpg)
   </details>
 
   <details>
     <summary>Proyecto 4: Monitoreo de Desastres Naturales</summary>
+    
     **Herramientas:** QGIS, Python, Sentinel-2
 
     **Resultado:**
+    
     ![Proyecto 4](path/to/your/project4.jpg)
   </details>
 </details>
@@ -143,34 +165,43 @@
   
   <details>
     <summary>Proyecto 1: Detección de Cambios en el Uso del Suelo</summary>
+    
     **Herramientas:** QGIS, Python, Sentinel-2
 
     **Resultado:**
+    
     ![Proyecto 1](path/to/your/project1.jpg)
   </details>
 
   <details>
     <summary>Proyecto 2: Mapeo de Cobertura Vegetal</summary>
+    
     **Herramientas:** ArcGIS, R, Landsat 8
 
     **Resultado:**
+    
     ![Proyecto 2](path/to/your/project2.jpg)
   </details>
 
   <details>
     <summary>Proyecto 3: Análisis de Índices de Vegetación</summary>
+    
     **Herramientas:** ENVI, QGIS, Python
 
     **Resultado:**
+    
     ![Proyecto 3](path/to/your/project3.jpg)
   </details>
 
   <details>
     <summary>Proyecto 4: Detección de Incendios Forestales</summary>
+    
     **Herramientas:** QGIS, Python, MODIS
 
     **Resultado:**
+    
     ![Proyecto 4](path/to/your/project4.jpg)
   </details>
 </details>
+
  
