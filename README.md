@@ -1,4 +1,4 @@
-# <span style="color: turquoise; font-size: 2rem; text-transform: uppercase;">Proyectos</span>
+# <span style="color: turquoise; font-size: 1.5rem; text-transform: uppercase;">Proyectos</span>
 
 <style>
   details {
@@ -13,7 +13,7 @@
     display: none; /* Ocultar el triángulo invertido en navegadores WebKit */
   }
   details p, details h2 {
-    font-size: 1.5rem; /* Tamaño de fuente del contenido */
+    font-size: 1rem; /* Tamaño de fuente del contenido */
     margin-left: 20px; /* Margen izquierdo para los proyectos */
   }
 </style>
@@ -27,23 +27,22 @@
 
     **Resultado:**
     ![Proyecto 1](path/to/your/project1.jpg)
-    
   </details>
 
   <details>
     <summary>Proyecto 2: Análisis de Precipitaciones</summary>
     **Herramientas:** QGIS, Python, Excel
 
-    **Resultado:**![Proyecto 2](path/to/your/project2.jpg)
+    **Resultado:**
+    ![Proyecto 2](path/to/your/project2.jpg)
   </details>
 
   <details>
     <summary>Proyecto 3: Gestión de Recursos Hídricos</summary>
-    
     **Herramientas:** EPANET, R, Matlab
 
-    **Resultado:**![Proyecto 3](path/to/your/project3.jpg)
-    
+    **Resultado:**
+    ![Proyecto 3](path/to/your/project3.jpg)
   </details>
 
   <details>
