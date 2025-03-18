@@ -49,8 +49,10 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 <figure>
   <img src="images/Hidrologia_superficial/precmensual.jpeg" alt="Proyecto 1">
   <figcaption>Precipitación mensual</figcaption>
+  
   <img src="images/Hidrologia_superficial/precanual.jpeg" alt="Proyecto 2">
   <figcaption>Precipitación anual</figcaption>
+  
   <img src="images/Hidrologia_superficial/promediomensual.jpeg" alt="Proyecto 3">
   <figcaption>Precipitación promedio mensual</figcaption>
 </figure>
@@ -84,6 +86,7 @@ Separé los componentes de caudal de una serie de datos hidrométricos de CONAGU
 <figure>
   <img src="images/Hidrologia_superficial/caudaldiaria.jpeg" alt="Proyecto 5">
   <figcaption>Caudal a escala diaria</figcaption>
+  
   <img src="images/Hidrologia_superficial/caudalmensual.jpeg" alt="Proyecto 6">
   <figcaption>Caudal a escala mensual</figcaption>
 </figure>
@@ -127,7 +130,7 @@ Trabajé una imagen Landsat-7 en ENVI. Utilicé las herramientas radiometric cal
 
 <figure>
   <img src="images/SIGPR/Correcion.jpeg" alt="Proyecto 8">
-  <figcaption>Red de flujo</figcaption>
+  <figcaption>Corrección radiométrica y atmosférica</figcaption>
 </figure>
   </details>
 
