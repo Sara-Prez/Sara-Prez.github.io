@@ -50,7 +50,7 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
   <figcaption>Precipitación promedio mensual</figcaption>
 </figure>
   </details>
-</details>
+
 
   <details>
     <summary class="project">2. Análisis de Precipitaciones</summary>
