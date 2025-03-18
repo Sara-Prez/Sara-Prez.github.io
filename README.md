@@ -56,7 +56,7 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 
 **Resultado:**
 
-![Proyecto 3](path/to/your/project3.jpg)
+![Proyec 9](path/to/your/project3.jpg)
   </details>
 
   <details>
