@@ -25,11 +25,11 @@
     height: auto; /* Mantener la proporción de las imágenes */
   }
   figure img {
-    max-width: 80%; /* Tamaño máximo de las imágenes */
+    max-width: 50%; /* Tamaño máximo de las imágenes */
     height: auto; /* Mantener la proporción de las imágenes */
   }
   figcaption {
-    text-align: center; /* Centrar el texto de los títulos */
+    text-align: left; /* Centrar el texto de los títulos */
     font-style: italic; /* Estilo itálico para los títulos */
   }
 </style>
@@ -115,7 +115,7 @@ Hice la red de flujo de agua subterránea de la zona de Piedras Negras, Coahuila
   <summary class="section">SIG y Percepción Remota</summary>
   
   <details>
-    <summary class="project">1.	Calibración radiométrica y corrección atmosféricas</summary>
+    <summary class="project">1.	Calibración radiométrica y corrección atmosférica</summary>
 
 Trabajé una imagen Landsat-7 en ENVI. Utilicé las herramientas radiometric calibration y flaash atmospheric correction. Utilicé una combinación RGB (4, 3, 2); se observa la vegetación en tonos rojos y un cuerpo de agua en azul.
 
