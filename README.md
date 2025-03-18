@@ -53,34 +53,36 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 
 
   <details>
-    <summary class="project">2. Análisis de Precipitaciones</summary>
+    <summary class="project">2. Simulación de infiltración</summary>
 
-**Herramientas:** QGIS, Python, Excel
+Trabajé con datos de intensidad de lluvia de una estación del Observatorio Hidrológico de Instituto de Ingeniería de la UNAM. Apliqué el método de tasa de infiltración constante para estimar la pérdida de agua por infiltración ante una tormenta severa, asumiendo que el suelo tiene siempre la misma capacidad de infiltración. Convertí las tasas de precipitación y de infiltración a láminas y grafiqué la Curva Masa.
+
+**Herramientas:** Python
 
 **Resultado:**
 
-![Proyecto 2](images/Hidrologia_superficial/precmensual.jpeg)
+<figure>
+  <img src="images/Hidrologia_superficial/curvamasa.jpeg" alt="Proyecto 4">
+  <figcaption>Curva Masa</figcaption>
+</figure>
   </details>
 
   <details>
-    <summary class="project">Proyecto 3: Gestión de Recursos Hídricos</summary>
+    <summary class="project">3. Análisis de caudal</summary>
 
-**Herramientas:** EPANET, R, Matlab
-
-**Resultado:**
-
-![Proyec 9](path/to/your/project3.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 4: Evaluación de Calidad del Agua</summary>
-
-**Herramientas:** Excel, R, Python
+**Herramientas:** Python
 
 **Resultado:**
 
-![Proyecto 4](path/to/your/project4.jpg)
+<figure>
+  <img src="images/Hidrologia_superficial/caudaldiaria.jpeg" alt="Proyecto 5">
+  <figcaption>Caudal a escala diaria</figcaption>
+  <img src="images/Hidrologia_superficial/caudalmensual.jpeg" alt="Proyecto 6">
+  <figcaption>Caudal a escala mensual</figcaption>
+</figure>
   </details>
+
+  
 </details>
 
 <details>
