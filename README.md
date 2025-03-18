@@ -49,7 +49,6 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
   <img src="images/images/Hidrologia_superficial/promediomensual.jpeg" alt="Proyecto 3">
   <figcaption>Precipitación promedio mensual</figcaption>
 </figure>
-
   <details>
     <summary class="project">2. Análisis de Precipitaciones</summary>
 
