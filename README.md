@@ -20,6 +20,13 @@
     font-size: 1.5rem; /* Tamaño de fuente del contenido */
     margin-left: 40px; /* Margen izquierdo para los proyectos */
   }
+  figure {
+    margin-left: 20px; /* Margen izquierdo para las figuras */
+  }
+  figcaption {
+    text-align: center; /* Centrar el texto de los títulos */
+    font-style: italic; /* Estilo itálico para los títulos */
+  }
 </style>
 
 <details>
@@ -33,14 +40,15 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 **Herramientas:** Python
 
 **Resultado:**
-Precipitación mensual
-![Precipitación mensual](images/Hidrologia_superficial/precmensual.jpeg)
-Precipitación anual
-![Precipitación anual](images/Hidrologia_superficial/precanual.jpeg)
 
-Precipitación mensual
-![Precipitación mensual](images/Hidrologia_superficial/promediomensual.jpeg)
-  </details>
+<figure>
+  <img src="images/images/Hidrologia_superficial/precmensual.jpeg" alt="Proyecto 1">
+  <figcaption>Precipitación mensual</figcaption>
+  <img src="images/images/Hidrologia_superficial/precanual.jpeg" alt="Proyecto 2">
+  <figcaption>Precipitación anual</figcaption>
+  <img src="images/images/Hidrologia_superficial/promediomensual.jpeg" alt="Proyecto 3">
+  <figcaption>Precipitación promedio mensual</figcaption>
+</figure>
 
   <details>
     <summary class="project">2. Análisis de Precipitaciones</summary>
