@@ -33,9 +33,12 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 **Herramientas:** Python
 
 **Resultado:**
-
+Precipitación mensual
 ![Precipitación mensual](images/Hidrologia_superficial/precmensual.jpeg)
+Precipitación anual
 ![Precipitación anual](images/Hidrologia_superficial/precanual.jpeg)
+
+Precipitación mensual
 ![Precipitación mensual](images/Hidrologia_superficial/promediomensual.jpeg)
   </details>
 
