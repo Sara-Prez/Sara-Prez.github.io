@@ -21,7 +21,7 @@
     margin-left: 40px; /* Margen izquierdo para los proyectos */
   }
   figure {
-    margin-left: 20px; /* Margen izquierdo para las figuras */
+    margin-left: 50px; /* Margen izquierdo para las figuras */
     height: auto; /* Mantener la proporción de las imágenes */
   }
   figure img {
@@ -130,7 +130,7 @@ Trabajé una imagen Landsat-7 en ENVI. Utilicé las herramientas radiometric cal
   </details>
 
   <details>
-    <summary class="project">2. 2.	Clasificación supervisada y no supervisada</summary>
+    <summary class="project">2. Clasificación supervisada y no supervisada</summary>
 
 Realicé una clasificación supervisada y no supervisada de una escena Landsat 8 del área de la Bahía de San Francisco. La escena pertenece al 3 de marzo de 2015. Realicé esta clasificación en ENVI. Hice los dos tipos de clasificación utilizando la herramienta Classification Workflow. También, obtuve las estadísticas de cada clasificación y calculé el área en hectáreas de cada cobertura.
     
@@ -147,7 +147,7 @@ Realicé una clasificación supervisada y no supervisada de una escena Landsat 8
   </details>
 
   <details>
-    <summary class="project">3. 3.	Digitalización de geomorfología</summary>
+    <summary class="project">3. Digitalización de geomorfología</summary>
 
 Digitalicé, manualmente, la geomorfología de la zona fronteriza entre Querétaro e Hidalgo con base en el mapa altimétrico de la zona.
 
