@@ -46,7 +46,7 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 
 **Resultado:**
 
-![Proyecto 2](path/to/your/project2.jpg)
+![Proyecto 2](images/Hidrologia_superficial/precmensual.jpeg)
   </details>
 
   <details>
