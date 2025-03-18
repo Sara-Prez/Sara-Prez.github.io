@@ -22,6 +22,11 @@
   }
   figure {
     margin-left: 20px; /* Margen izquierdo para las figuras */
+    height: auto; /* Mantener la proporción de las imágenes */
+  }
+  figure img {
+    max-width: 80%; /* Tamaño máximo de las imágenes */
+    height: auto; /* Mantener la proporción de las imágenes */
   }
   figcaption {
     text-align: center; /* Centrar el texto de los títulos */
