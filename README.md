@@ -26,13 +26,17 @@
   <summary class="section">Hidrología superficial</summary>
   
   <details>
-    <summary class="project">1: Modelado de Cuencas Hidrográficas</summary>
+    <summary class="project">1. Análisis de Precipitaciones</summary>
 
-**Herramientas:** ArcGIS, HEC-HMS, AutoCAD
+Descargué datos de precipitación del Servicio Meteorológico Nacional de una estación de la subcuenca de Zapotitlán, Guerrero. Procesé los datos en Python. Hice una serie mensual y anual. También obtuve la precipitación promedio mensual.
+
+**Herramientas:** Python
 
 **Resultado:**
 
-![Proyecto 1](path/to/your/project1.jpg)
+![Precipitación mensual](images/Hidrologia_superficial/precmensual.jpeg)
+![Precipitación anual](images/Hidrologia_superficial/precanual.jpeg)
+![Precipitación mensual](images/Hidrologia_superficial/promediomensual.jpeg)
   </details>
 
   <details>
