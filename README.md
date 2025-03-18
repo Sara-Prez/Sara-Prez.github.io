@@ -94,140 +94,74 @@ Trabajé con datos de intensidad de lluvia de una estación del Observatorio Hid
   <summary class="section">Hidrología subterránea</summary>
   
   <details>
-    <summary class="project">Proyecto 1: Gestor de Tareas</summary>
-El proyecto "Gestor de Tareas" es una aplicación web desarrollada como parte de un proyecto personal. El objetivo principal del proyecto es ayudar a los usuarios a organizar y gestionar sus tareas diarias de manera eficiente.
+    <summary class="project">1. Red de flujo</summary>
 
-Para desarrollar este proyecto, utilicé tecnologías como HTML, CSS, JavaScript y React. La aplicación permite a los usuarios agregar, editar y eliminar tareas, así como marcar tareas como completadas. Uno de los mayores desafíos fue implementar la funcionalidad de arrastrar y soltar para reordenar las tareas, lo cual superé utilizando la biblioteca react-beautiful-dnd.
+Hice la red de flujo de agua subterránea de la zona de Piedras Negras, Coahuila. Primero obtuve curvas de elevación de nivel estático a partir de una interpolación por el método de kriging, empleando los softwares SGEMS, SAGA GIS y QGIS. Después, elaboré un mapa de la piezometría y la geología de la zona; con base en este mapa dibujé las líneas de flujo.
 
-**Herramientas:** HTML, CSS, JavaScript, React
-
-**Resultado:**
-
-![Proyecto 1](path/to/your/project1.jpg)
-
-[Ver PDF del Proyecto 1](pdf/project1.pdf)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 2: Análisis de Aguas Subterráneas</summary>
-
-**Herramientas:** QGIS, AutoCAD, HEC-RAS
+**Herramientas:** SGeMS, SAGA GIS y QGIS.
 
 **Resultado:**
 
-![Proyecto 2](path/to/your/project2.jpg)
+<figure>
+  <img src="images/Hidrologia_subterranea/mapa_base (1).png" alt="Proyecto 7">
+  <figcaption>Red de flujo</figcaption>
+</figure>
   </details>
 
-  <details>
-    <summary class="project">Proyecto 3: Modelado de Acuíferos</summary>
-
-**Herramientas:** MODFLOW, ArcGIS, Python
-
-**Resultado:**
-
-![Proyecto 3](path/to/your/project3.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 4: Gestión de Pozos</summary>
-
-**Herramientas:** EPANET, Excel, R
-
-**Resultado:**
-
-![Proyecto 4](path/to/your/project4.jpg)
-  </details>
+  
 </details>
 
 <details>
-  <summary class="section">SIG</summary>
+  <summary class="section">SIG y Percepción Remota</summary>
   
   <details>
-    <summary class="project">Proyecto 1: Sistema de Gestión de Inventarios</summary>
-El proyecto "Sistema de Gestión de Inventarios" es una aplicación desarrollada para una pequeña empresa como parte de un proyecto profesional. El objetivo del proyecto es ayudar a la empresa a gestionar su inventario de manera más eficiente.
+    <summary class="project">1.	Calibración radiométrica y corrección atmosféricas</summary>
 
-Desarrollé este proyecto utilizando tecnologías como PHP, MySQL y Bootstrap. La aplicación permite a los usuarios agregar, editar y eliminar productos del inventario, generar informes y recibir alertas cuando el stock está bajo. Uno de los desafíos fue asegurar la integridad de los datos y proporcionar una interfaz de usuario intuitiva, lo cual logré implementando validaciones y siguiendo principios de diseño centrado en el usuario.
+Trabajé una imagen Landsat-7 en ENVI. Utilicé las herramientas radiometric calibration y flaash atmospheric correction. Utilicé una combinación RGB (4, 3, 2); se observa la vegetación en tonos rojos y un cuerpo de agua en azul.
 
-**Herramientas:** PHP, MySQL, Bootstrap
+**Herramientas:** ENVI
 
 **Resultado:**
 
-![Proyecto 1](path/to/your/project1.jpg)
-
-[Ver PDF del Proyecto 1](pdf/project1.pdf)
+<figure>
+  <img src="images/SIGPR/Correcion.jpeg" alt="Proyecto 8">
+  <figcaption>Red de flujo</figcaption>
+</figure>
   </details>
 
   <details>
-    <summary class="project">Proyecto 2: Análisis Espacial de Datos</summary>
+    <summary class="project">2. 2.	Clasificación supervisada y no supervisada</summary>
 
-**Herramientas:** QGIS, Python, R
+Realicé una clasificación supervisada y no supervisada de una escena Landsat 8 del área de la Bahía de San Francisco. La escena pertenece al 3 de marzo de 2015. Realicé esta clasificación en ENVI. Hice los dos tipos de clasificación utilizando la herramienta Classification Workflow. También, obtuve las estadísticas de cada clasificación y calculé el área en hectáreas de cada cobertura.
+    
+**Herramientas:** ENVI
 
 **Resultado:**
 
-![Proyecto 2](path/to/your/project2.jpg)
+<figure>
+  <img src="images/SIGPR/clasificacionnosup.jpeg" alt="Proyecto 9">
+  <figcaption>Clasificación no supervisada</figcaption>
+  <img src="images/SIGPR/clasificacionsup.jpeg" alt="Proyecto 10">
+  <figcaption>Clasificación supervisada</figcaption>
+</figure>
   </details>
 
   <details>
-    <summary class="project">Proyecto 3: Cartografía Temática</summary>
+    <summary class="project">3. 3.	Digitalización de geomorfología</summary>
 
-**Herramientas:** ArcGIS, Illustrator, Excel
+Digitalicé, manualmente, la geomorfología de la zona fronteriza entre Querétaro e Hidalgo con base en el mapa altimétrico de la zona.
 
-**Resultado:**
-
-![Proyecto 3](path/to/your/project3.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 4: Monitoreo de Desastres Naturales</summary>
-
-**Herramientas:** QGIS, Python, Sentinel-2
+**Herramientas:** QGIS
 
 **Resultado:**
 
-![Proyecto 4](path/to/your/project4.jpg)
+<figure>
+  <img src="images/SIGPR/alt.jpeg" alt="Proyecto 11">
+  <figcaption>Mapa altimétrico</figcaption>
+  <img src="images/SIGPR/dig.jpeg" alt="Proyecto 12">
+  <figcaption>Mapa geomorfológico</figcaption>
+</figure>
   </details>
-</details>
 
-<details>
-  <summary class="section">Percepción Remota</summary>
   
-  <details>
-    <summary class="project">Proyecto 1: Detección de Cambios en el Uso del Suelo</summary>
-
-**Herramientas:** QGIS, Python, Sentinel-2
-
-**Resultado:**
-
-![Proyecto 1](path/to/your/project1.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 2: Mapeo de Cobertura Vegetal</summary>
-
-**Herramientas:** ArcGIS, R, Landsat 8
-
-**Resultado:**
-
-![Proyecto 2](path/to/your/project2.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 3: Análisis de Índices de Vegetación</summary>
-
-**Herramientas:** ENVI, QGIS, Python
-
-**Resultado:**
-
-![Proyecto 3](path/to/your/project3.jpg)
-  </details>
-
-  <details>
-    <summary class="project">Proyecto 4: Detección de Incendios Forestales</summary>
-
-**Herramientas:** QGIS, Python, MODIS
-
-**Resultado:**
-
-![Proyecto 4](path/to/your/project4.jpg)
-  </details>
 </details>
