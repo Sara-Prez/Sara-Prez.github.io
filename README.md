@@ -42,11 +42,11 @@ Descargué datos de precipitación del Servicio Meteorológico Nacional de una e
 **Resultado:**
 
 <figure>
-  <img src="images/images/Hidrologia_superficial/precmensual.jpeg" alt="Proyecto 1">
+  <img src="images/Hidrologia_superficial/precmensual.jpeg" alt="Proyecto 1">
   <figcaption>Precipitación mensual</figcaption>
-  <img src="images/images/Hidrologia_superficial/precanual.jpeg" alt="Proyecto 2">
+  <img src="images/Hidrologia_superficial/precanual.jpeg" alt="Proyecto 2">
   <figcaption>Precipitación anual</figcaption>
-  <img src="images/images/Hidrologia_superficial/promediomensual.jpeg" alt="Proyecto 3">
+  <img src="images/Hidrologia_superficial/promediomensual.jpeg" alt="Proyecto 3">
   <figcaption>Precipitación promedio mensual</figcaption>
 </figure>
   </details>
