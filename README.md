@@ -75,6 +75,8 @@ Trabajé con datos de intensidad de lluvia de una estación del Observatorio Hid
   <details>
     <summary class="project">3. Análisis de caudal</summary>
 
+Separé los componentes de caudal de una serie de datos hidrométricos de CONAGUA. Apliqué el método de mínimo local y obtuve la gráfica de componentes de Caudal Total, Directo y Base a escala diaria y mensual.
+
 **Herramientas:** Python
 
 **Resultado:**
